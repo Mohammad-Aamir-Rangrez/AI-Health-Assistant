@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #121212; /* Dark background for body */
+    color: #e0e0e0; /* Light text color */
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #ffffff; /* Light color for headers */
+}
+
+.tabs {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.tab-button {
+    padding: 10px 20px;
+    background: #054c66; /* Dark background for tab buttons */
+    color: #ffffff; /* Light text color */
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.tab-button:hover {
+    background: #226f90; /* Slightly lighter background on hover */
+}
+
+.tab-content {
+    display: none;
+    animation: fadeIn 0.5s;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+textarea, input, select {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #444; /* Darker border color */
+    border-radius: 5px;
+    background: #1e1e1e; /* Dark background for inputs */
+    color: #e0e0e0; /* Light text color */
+    transition: border-color 0.3s;
+}
+
+textarea:focus, input:focus, select:focus {
+    border-color: #00b3ff; /* Highlight border on focus */
+}
+
+button {
+    padding: 10px 20px;
+    background: #0b979e; /* Dark green background */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #417a7d; /* Slightly darker green on hover */
+}
+
+p {
+    font-size: 1.2em;
+    color: #e0e0e0; /* Light text color for paragraphs */
+    margin-top: 10px;
+}
+
+/* Keyframes for fade-in animation */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}

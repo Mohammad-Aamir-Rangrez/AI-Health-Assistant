@@ -1,0 +1,7 @@
+Flask
+transformers
+langchain-groq
+torch
+numpy
+pandas
+joblib

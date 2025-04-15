@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+=======
+# AI-Health-Assistant
+AI health Assistant Chatbot using my own data
+
+>>>>>>> 7ca602c7b8bfce0157771de39af6ba4fd125530c
 
 
 # AI Health Assistant
